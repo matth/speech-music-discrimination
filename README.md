@@ -62,6 +62,12 @@ Install simple ruby web server software:
 
 ## TODO
 
+If these thngs can be done over the next week I think it will be the beginning 
+of a web based system for visualizing the speech / music boundaries. From this
+we can go in other directions, either improving the CFA output, or adding a 
+database and user interface to manually edit it and generate a large test data
+set very quickly.
+
 * Generate JSON segments of music / speech from output of ruby script
 * Add segments to waveform view by loading JSON and parsing in JS
 * Edit index.html look better
