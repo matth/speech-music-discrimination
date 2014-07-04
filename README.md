@@ -55,9 +55,9 @@ Only use this if you are not using the Vagrant method
 
 Install simple ruby web server software:
 
-   sudo gem install rack 
-   rackup server.ru
+     sudo gem install rack 
+     rackup server.ru
 
-   # visit http://localhost:9292/index.html
+     # visit http://localhost:9292/index.html
 
 
