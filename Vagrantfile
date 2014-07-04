@@ -18,6 +18,8 @@ Vagrant.configure("2") do |config|
 
     sudo apt-get update
 
+    sudo apt-get install ffmpeg
+
     sudo ./scripts/install-yaffe.sh
 
     echo "export PATH=\$PATH:/usr/local/bin" > /home/vagrant/.bash_profile
