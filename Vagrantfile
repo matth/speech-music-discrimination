@@ -18,8 +18,19 @@ Vagrant.configure("2") do |config|
 
     sudo apt-get update
 
+    # FFMPEG VERY USEFUL
     sudo apt-get install ffmpeg
 
+    # AUDIOWAVEFORM GENERATOR
+    sudo add-apt-repository ppa:chris-needham/ppa
+    sudo apt-get update
+    sudo apt-get install audiowaveform
+
+    # RUBY FOR SCRIPTING AND WEB STUFF
+    sudo apt-get install ruby1.9
+    sudo gem install bundler json rack
+
+    # YAAFFE CFA EXTENSION
     sudo ./scripts/install-yaffe.sh
 
     echo "export PATH=\$PATH:/usr/local/bin" > /home/vagrant/.bash_profile

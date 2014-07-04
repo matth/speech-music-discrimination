@@ -43,3 +43,21 @@ Only use this if you are not using the Vagrant method
     export YAAFE_PATH=/usr/local/yaafe_extensions
 
     sudo ./scripts/install-yaffe-cba-extension.sh
+
+## Adding timecodes with ruby
+
+    sudo apt-get install ruby1.9
+    sudo gem install json
+
+    ruby ./scripts/add_times_to_cfa_output.rb
+
+## Visualizing results in web page
+
+Install simple ruby web server software:
+
+   sudo gem install rack 
+   rackup server.ru
+
+   # visit http://localhost:9292/index.html
+
+
